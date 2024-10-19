@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #009CA6; /* Light grey background */
+    box-shadow: 0 4px 2px -2px gray; /* Add a subtle shadow */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make brand bold */
+    font-size: 1rem; /* Increase font size */
+}
+
+.nav-link {
+    font-size: 1rem; /* Standard font size */
+    padding: 0.7rem 1rem; /* Increase padding for better touch target */
+}
+
+.nav-link:hover {
+    background-color: #D62598;
+    border-radius: 10px;
+
+}
+
+.d-inline-block:hover{
+    background-color: #D62598;
+    border-radius: 10px;
+}
+ 
+#brandEsd{
+    color: #00818a;
+    font-size: inherit;
+}

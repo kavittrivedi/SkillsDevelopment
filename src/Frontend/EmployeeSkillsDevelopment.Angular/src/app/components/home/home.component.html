@@ -1,0 +1,14 @@
+<div>
+  <div class="card" *ngIf="!isLoggedIn()">
+            <h4>You are not logged in.</h4>
+            <button class="btn btnCivica homeButton mt-1" (click)="login()">Click here to log in</button>
+        </div>   
+    <div class="card" *ngIf="isLoggedIn()">  
+            <h4>Hello, {{username}}</h4>  
+            <br>  
+            <h5>
+                Welcome to 
+                <b>EmployeeSkillsDevelopment</b>
+            </h5>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.btnCivica
+{
+    background-color: #009CA6;
+    color: white;
+}
+
+.btnCivica:hover
+{
+    background-color: #d62598;
+    color: white;
+
+}
+
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+@hostaddress = http://localhost:5006/
+ 
+GET {{hostaddress}}}GetAllEmployees
+Accept: application/json
+ 
+
+GET {{hostaddress}}GetTotalEmployeesCount
+Accept: application/json
+ 
+###
